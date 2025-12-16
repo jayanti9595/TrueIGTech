@@ -3,7 +3,6 @@ let user = {
     name : "Jayanti Rajput",
     age : 12,
     greet(){
-
         console.log("Age : ",this.age);
     }
 }
