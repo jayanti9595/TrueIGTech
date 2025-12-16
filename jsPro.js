@@ -3,15 +3,14 @@ let user = {
     name : "Jayanti Rajput",
     age : 12,
     greet(){
-        
+
         console.log("Age : ",this.age);
     }
 }
 console.log("name : ", user.name);
 console.log("name : ", user.greet());
 user.email = "Jayanti@gmail.com";
-console.log("email : ", user.email)
-
+console.log("email : ", user.email);
 
 // Object Destructuring
 let userData = {
@@ -31,4 +30,4 @@ const fruits =  ["mango", "banana"];
 const [st, nd] = fruits;
 console.log("st : ",st);
 console.log("nd : ",nd);
-fruits.push("jjdjfjf");
+fruits.push("jayanti")
