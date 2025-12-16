@@ -30,4 +30,3 @@ const [st, nd] = fruits;
 console.log("st : ",st);
 console.log("nd : ",nd);
 fruits.push("jayanti");
-console.log("fruits : ",fruits);
