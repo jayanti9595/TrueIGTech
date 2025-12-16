@@ -4,9 +4,7 @@ const worker = new Worker(
   async (job) => {
     console.log(`Processing job: ${job.name}`);
     console.log("Data:", job.data);
-    console.log(
-      `Sending email to ${job.data.to} with subject "${job.data.subject}"`
-    );
+    console.log(`Sending email to ${job.data.to} with subject "${job.data.subject}"`);
   },
   {
     connection: {
