@@ -6,8 +6,9 @@ let user = {
         console.log("Age : ",this.age);
     }
 }
+
 console.log("name : ", user.name);
-console.log("name : ", user.greet());
+user.greet();
 user.email = "Jayanti@gmail.com";
 console.log("email : ", user.email);
 
