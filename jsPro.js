@@ -6,8 +6,9 @@ let user = {
         console.log("Age : ",this.age);
     }
 }
+
 console.log("name : ", user.name);
-console.log("name : ", user.greet());
+user.greet();
 user.email = "Jayanti@gmail.com";
 console.log("email : ", user.email);
 
@@ -30,4 +31,4 @@ const [st, nd] = fruits;
 console.log("st : ",st);
 console.log("nd : ",nd);
 fruits.push("jayanti");
-console.log("fruits : ",fruits);
+console.log("fruits  : ",fruits);
